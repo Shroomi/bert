@@ -46,7 +46,7 @@ class PDF2TXT14GB(Base):
     @staticmethod
     def create_table():
         engine = create_engine(Config.TXT_CLEAN_SQL)
-        PDF2TXT14GB.__table__.drop(engine)
+        PDF2TXT14GB.__table__.drop(engine, checkfirst=True)
         Base.metadata.create_all(engine)
 
         txt_path_list = []

@@ -14,3 +14,4 @@
 class Config(object):
     # 数据库配置
     TXT_CLEAN_SQL = 'mysql+pymysql://root:shannon@172.22.22.141:7788/txt_clean?charset=utf8'
+    GEN_TF_REC_SQL = 'mysql+pymysql://root:shannon@172.22.22.141:7788/generate_tf_record?charset=utf8'

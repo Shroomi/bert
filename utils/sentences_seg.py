@@ -23,6 +23,8 @@
 先将第(1)部分的txt数据处理后放入/data/dmr/one_sent_per_line
 步骤1，将第(1)部分的txt数据不分文件夹地全部写入数据表txt_clean.pdf2txt_14GB，并记录处理状态，防止程序意外停下
 步骤2，处理第(1)部分的txt文件，写入到/data/dmr/one_sent_per_line路径下
+
+ing：等待第(2)，(3)部分数据完成
 """
 import os
 import re
